@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".BursaUluCamiDetay">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="389dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ayvalik" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayvalık"
+        android:textColor="#673AB7"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="409dp"
+        android:layout_height="194dp"
+        android:text="Ayvalık, Türkiye'nin Balıkesir ilinin Ege Bölgesi'nde kalan bir ilçesi olup Midilli'nin tam karşısında kurulmuştur. Çam ormanları ve Zeytin bakımından zengin olan ilçe Ege Denizi kıyısında olup Ayvalık Adaları adı verilen takımadalara sahiptir. Ayvalık'ın kuzeydoğusunda Gömeç, güneyinde İzmir ili'ne bağlı Dikili ve Bergama ilçeleri, batısında ise Ege Denizi bulunur.Ayvalık'ın karşısında ise ondan Midilli Boğazı ile ayırılan, Yunanistan Cumhuriyeti'nin, Kuzey Ege Adaları coğrafi bölgesinin Midilli iline bağlı olan ve hem Midilli ilinin hem de Kuzey Ege Adaları coğrafi bölgesinin yönetim merkezi olan Midilli şehri çıplak gözle görülebilecek yakınlıkta yer almaktadır.  Ayvalık, bir adalar topluluğudur. Kaşık, Poyraz, Kamış, Büyükkuruada ve Güvercinada bunlardan bazılarıdır.  Ayvalık ilçesinde dağlar denize dik uzandığından kıyılar girintili çıkıntılıdır. Bu kıyılar boyunca burunlar ve koylar meydana gelmiştir. İlçenin Ege Denizi'ne olan kıyıları 34 km'dir.[10]"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="222dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/bursaulucamikonum" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="ayvalik@ayvalik.gov.tr"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Telefon"
+        android:textColor="#673AB7"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="E Posta"
+        android:textColor="#673AB7"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="444 10 66"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/geridon"
+        android:layout_width="114dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:background="?attr/homeAsUpIndicator"
+        android:backgroundTint="#DDDDDD"
+        android:text="."
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FF0808"
+        android:textColorLink="#FFFFFF"
+        app:icon="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.279"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:rippleColor="#FAF9F9" />
+</androidx.constraintlayout.widget.ConstraintLayout>
